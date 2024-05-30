@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 // This functions are responsible to make UI responsive across all the mobile devices.
-MediaQueryData mediaQuery = MediaQueryData.fromView(WidgetsBinding.instance.platformDispatcher.views.single);
+MediaQueryData mediaQuery = MediaQueryData.fromView(
+    WidgetsBinding.instance.platformDispatcher.views.single);
 //MediaQueryData mediaQueryData = MediaQueryData.fromWindow(ui.window);
 
 const num designWidth = 360;
