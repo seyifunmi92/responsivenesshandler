@@ -1,3 +1,3 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* TODO: With this package, you can manage widgets and build them responsively by adding extensions to them

@@ -30,7 +30,7 @@ TODO:
 render your widget size parameters with the extensions provided by the pacakage.
 
 ```dart
-   Text(
+         Text(
             "data",
             style: TextStyle(fontSize: 50.fSize),
           ),
@@ -50,5 +50,3 @@ render your widget size parameters with the extensions provided by the pacakage.
             ),
           )
 ```
-
-
