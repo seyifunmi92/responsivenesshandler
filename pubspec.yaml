@@ -1,6 +1,6 @@
 name: responsiveness_handler
 description: This package helps to manage app layout displaying responsiveness across devices
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/seyifunmi92/responsivenesshandler
 
 environment:
