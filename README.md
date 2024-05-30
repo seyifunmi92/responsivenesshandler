@@ -11,25 +11,44 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+TODO:
+This package helps manage app layout responsively by redering all widgets based on the device size and orientation, It has inbuilt extensions for all widgets which can be applied easily hereby giving the widget/component a dynamic value in size. This is then rendered responsively based on the media query data gotten from the device
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+TODO:
+Simply apply the extensions on the widget size parameters such as (fontSize, height, width) when creating your widgets
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+TODO:
+Runs on android, IOS and web
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+TODO:
+render your widget size parameters with the extensions provided by the pacakage.
 
 ```dart
-const like = 'sample';
+   Text(
+            "data",
+            style: TextStyle(fontSize: 50.fSize),
+          ),
+
+          //useage for sized box
+          SizedBox(
+            height: 100.h,
+          ),
+
+          //useage for container and image
+          Container(
+            height: 100.h,
+            width: MediaQuery.of(context).size.width,
+            child: Image.asset(
+              "name",
+              height: 20.adaptSize,
+            ),
+          )
 ```
 
 ## Additional information
